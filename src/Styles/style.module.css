@@ -1,0 +1,75 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: url('../Images/background-6206623_1920.png');
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.wrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'dangrek';
+    opacity: .978;
+    margin-top: 35px;
+}
+
+.searchBox {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: inset -1px 0 1px 1px rgba(43, 43, 43, 0.6);
+    background: #424242;
+    color: white;
+}
+
+.searchBox input {
+    outline: none;
+    border: none;
+    border-radius: 7px;
+    box-shadow: inset 0 1px 1px 1px rgb(88, 88, 88);
+    padding: 7px 15px;
+    width: 345px;
+    height: 50px;
+    margin: 20px 0;
+
+}
+
+.coin {
+    display: flex;
+    justify-content: space-around;
+    padding: 3px;
+    align-items: center;
+    width: 700px;
+    box-shadow: inset -1px 0 1px 1px rgba(43, 43, 43, 0.6);
+    background: #424242;
+    color: white;
+    border-radius: 7px;
+}
+
+#logo {
+    width: 45px;
+
+}
+
+.incColor {
+    color: rgb(5, 223, 5);
+}
+
+.decColor {
+    color: rgb(214, 5, 5);
+}
+
+.loadingImageWrapper {
+    display: flex;
+    justify-content: center;
+}
+
+span {
+    min-width: 90px;
+}
